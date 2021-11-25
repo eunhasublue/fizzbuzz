@@ -1,6 +1,8 @@
 def do_fizzbuzz();
-    print('Do fizzbuzz!')
-    return True
+    i = 3
+    if i%3==0:
+        print('fizz')
+        return True
 
 if __name__ == '__mina__':
     do_fizzbuzz()
